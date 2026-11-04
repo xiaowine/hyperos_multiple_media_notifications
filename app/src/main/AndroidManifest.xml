@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 默认无界面构建：仅保留 LSPosed 模块入口，不包含 Activity/Application。 -->
+    <application
+        android:description="@android:string/unknownName"
+        android:label="MIUI Media Pager"
+        android:theme="@android:style/Theme.DeviceDefault"
+        tools:ignore="MissingApplicationIcon" />
+</manifest>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/binder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="Binder" />
+
+    <TextView
+        android:id="@+id/api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="API" />
+
+    <TextView
+        android:id="@+id/framework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="框架" />
+
+    <TextView
+        android:id="@+id/framework_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="框架版本" />
+
+    <TextView
+        android:id="@+id/framework_version_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="框架版本号" />
+
+    <TextView
+        android:id="@+id/framework_properties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="框架能力" />
+
+    <TextView
+        android:id="@+id/scope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="作用域" />
+
+    <TextView
+        android:id="@+id/process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="运行目标" />
+
+    <Button
+        android:id="@+id/request_scope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="申请 SystemUI 作用域"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="热加载模块"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
